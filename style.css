@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 11em 0em;
+    padding: 15em 0em;
 }
 
 .home h1{
@@ -93,16 +93,34 @@
     line-height: 1.5;
 }
 
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.box input{
+    width: 3em;
+    height: 2em;
+    text-align: center;
+    font-size: 1em;
+}
+
 .btn{
     padding: .5rem 1rem;
     background: brown;
     color: #fff;
     cursor: pointer;
-    margin-top: 1em;
     font-size: 1em;
+    width: 1em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn:hover{
+.btn:active{
     background: #fc2121;
 }
 
@@ -113,6 +131,13 @@ footer{
     font-size: 80%;
     padding-top: 3em;
     text-align: center;
+}
+
+.payment-icon{
+    position: fixed;
+    top: 1rem; right: 1rem; 
+    width: 50px;
+    cursor: pointer;
 }
 
 
@@ -159,6 +184,10 @@ footer{
         padding: 1.5em 4.5em 
     }
 
+    .payment-icon{
+        width: 60px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -189,5 +218,9 @@ footer{
 
     .container{
         padding: 1.5em 2.5em;
+    }
+
+    .payment-icon{
+        width: 60px;
     }
 }
