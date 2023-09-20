@@ -53,6 +53,7 @@ function decrementValue(event) {
     // Prevent negative values when decrementing
     if (newValue < 0) {
         input.value = 0;
+        alert('amount should not be lesser than 0')
     }
 }
 
