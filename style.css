@@ -7,6 +7,14 @@
     transition: all .2s linear;
 }
 
+.menu-group-heading span{
+    cursor: pointer;
+}
+
+.border-img{
+    width: 1.5em;
+}
+
 .nav{
     display: flex;
     justify-content: center;
@@ -77,6 +85,20 @@
     padding-bottom: .5em;
     border-bottom: 2px solid #ccc;
     color: brown;
+    display: flex;
+    justify-content: space-between;
+}
+
+.maindish-group{
+    display: flex;
+}
+
+.seafood-group{
+    display: none;
+}
+
+.dessert-group{
+    display: none;
 }
 
 .menu-group{
