@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
     var $paymentIcon = $('.payment-icon');
-    var iconHidden = true;
+    var iconHidden = false;
 
     // Custom ease-out function
     jQuery.easing.easeOutSlide = function (x, t, b, c, d) {
@@ -11,7 +11,7 @@ $(document).ready(function () {
 
     $(window).on('scroll load', function () {
         if ($(window).scrollTop() > 680 && iconHidden) {
-            // Show the payment icon using custom ease-out animation
+            // Show the payment icon
             $paymentIcon.css('right', '-100%').show().animate({ right: '0%' }, {
                 duration: 500,
                 easing: 'easeOutSlide'
@@ -19,7 +19,7 @@ $(document).ready(function () {
             iconHidden = false;
         }
         else if ($(window).scrollTop() <= 680 && !iconHidden) {
-            // Hide the payment icon with an ease-out slide animation to the right
+            // Hide the payment icon
             $paymentIcon.animate({ right: '-100%' }, {
                 duration: 500,
                 easing: 'easeOutSlide',

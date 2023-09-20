@@ -96,8 +96,9 @@
 .box{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-top: 1em;
+    margin-left: 5em;
 }
 
 .box input{
@@ -139,6 +140,7 @@ footer{
     width: 50px;
     cursor: pointer;
 }
+
 
 
 
