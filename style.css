@@ -7,6 +7,29 @@
     transition: all .2s linear;
 }
 
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em .5em;
+    width: 100vw;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
+    
+}   
+.nav img{
+    height: 2.5em;
+    margin-left: 1em;
+}
+
+.nav-logo-text{
+    margin-left: .5em;
+    font-size: 1.5em;
+    color: brown;
+}
+
+
 
 .bg-image{
     position: fixed;
@@ -30,6 +53,11 @@
     color: brown;
 }
 
+.home h3{
+    border-top: 2px solid brown;
+    color: rgb(0, 0, 0);
+}
+
 .logo{
     width: 180px;
 }
@@ -47,7 +75,7 @@
 
 .menu-group-heading{
     margin: 0;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
     border-bottom: 2px solid #ccc;
     color: brown;
 }
@@ -136,7 +164,7 @@ footer{
 
 .payment-icon{
     position: fixed;
-    top: 1rem; right: 1rem; 
+    top: 4.5em; right: 1em; 
     width: 50px;
     cursor: pointer;
 }
@@ -194,6 +222,7 @@ footer{
         margin-left: 5em;
     }
 
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -233,4 +262,5 @@ footer{
     .box{
         margin-left: 5em;
     }
+
 }
