@@ -15,12 +15,10 @@
     width: 100vw;
     position: fixed;
     background-color: #fff;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
-    
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }   
 .nav img{
     height: 2.5em;
-    margin-left: 1em;
 }
 
 .nav-logo-text{
