@@ -11,8 +11,15 @@
     cursor: pointer;
 }
 
+.menu-group-heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .border-img{
-    width: 1.5em;
+    width: 1em;
+    margin: .3em .3em;
 }
 
 .nav{
@@ -252,6 +259,9 @@ footer{
     .home h3{
         font-size: 17px;
     }
+    .border-img{
+        width: 1.5em;
+    }
 
 
 }
@@ -297,9 +307,9 @@ footer{
     .box{
         margin-left: 5em;
     }
-
-    .home h3{
-        font-size: 17px;
+    
+    .border-img{
+        width: 1.5em;
     }
 
 }
